@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.crop {
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+}
+
+.crop img {
+  width: 200px;
+  height: 230px;
+  margin: -5px 0 0 -67px;
+}
+@media screen and (max-width: 768px) {
+  #image,
+  #img {
+    display: none;
+  }
+}
