@@ -35,5 +35,5 @@ jobs:
       - name: Installing Surge
         run: sudo npm install --global surge
       - name: Deploy Surge
-        run: surge ./ portfolio-danyal.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build/ portfolio-danyal.surge.sh --token ${{ secrets.SURGE_TOKEN }}
 
