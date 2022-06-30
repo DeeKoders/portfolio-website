@@ -62,9 +62,9 @@ const Home = () => {
       <div
         Style='overflow: hidden'
         id='image'
-        className='col-6 border bg-danger bg-opacity-75 border rounded-pill'
+        className='col-6 px-5 border bg-danger bg-opacity-75 border rounded-pill'
       >
-        <img Style='max-width: 100%; height: 90vh' src={img} alt='' />
+        <img Style='height: 90vh' src={img} alt='' />
       </div>
     </div>
   )
