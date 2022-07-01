@@ -6,7 +6,7 @@ import MyVerticalElement from './MyVerticalElement'
 
 const Education = () => {
   return (
-    <div Style='min-height: 100vh'>
+    <div Style='min-height: 100vh border-bottom border-5 border-secondary border-opacity-50'>
       <h1 className='text-uppercase text-center fw-bold mt-5'>My Education</h1>
       <hr className='mb-5' />
       <VerticalTimeline lineColor='#dc3545'>

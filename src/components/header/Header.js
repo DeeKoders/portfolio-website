@@ -46,7 +46,10 @@ const Header = (props) => {
                   </Link>
                 </li>
                 <li className='nav-item'>
-                  <Link className='nav-link fw-bold text-uppercase mx-3' to='/'>
+                  <Link
+                    className='nav-link fw-bold text-uppercase mx-3'
+                    to='/skills'
+                  >
                     Skills
                   </Link>
                 </li>

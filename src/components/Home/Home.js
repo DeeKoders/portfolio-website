@@ -3,7 +3,10 @@ import img from '../../images/danyal.png'
 import TypewriterComponent from 'typewriter-effect'
 const Home = () => {
   return (
-    <div className='row' Style='min-height: 90vh'>
+    <div
+      className='row border-bottom border-5 border-secondary border-opacity-50'
+      Style='min-height: 90vh'
+    >
       <div className='col-12 col-md-6 px-5 mt-5 pt-3'>
         <h1 className='row text-dark opacity-75 fs-4 mt-5 pt-5'>
           Hello World !!!

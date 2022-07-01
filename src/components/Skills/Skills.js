@@ -1,11 +1,19 @@
 import React from 'react'
-import image from '../../images/danyal.jpg'
+import IndSkill from './IndSkill'
+import { SkillsHelper } from '../../helpers/SkillsHelper'
 const Skills = () => {
   return (
-    <div className='container' Style='min-height: 100vh'>
-      <h1 className='text-center mt-5'>Skills</h1>
-      <div className='col-3'>
-        <img Style='max-width: 100%' src={image} alt='' />
+    <div
+      className='border-bottom border-5 border-secondary border-opacity-50'
+      Style='min-height: 100vh'
+    >
+      <h1 className='text-uppercase text-center fw-bold mt-5'>My Skills</h1>
+      <hr className='mb-5' />
+
+      <div className='row justify-content-center'>
+        {SkillsHelper.map((item) => {
+          return <IndSkill key={item.id} {...item} />
+        })}
       </div>
     </div>
   )
