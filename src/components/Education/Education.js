@@ -1,29 +1,18 @@
 import React from 'react'
 import { VerticalTimeline } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
-
+import { EducationList } from '../../helpers/EducationList'
 import MyVerticalElement from './MyVerticalElement'
 
 const Education = () => {
   return (
     <div Style='min-height: 100vh'>
-      h1
+      <h1 className='text-uppercase text-center fw-bold mt-5'>My Education</h1>
+      <hr className='mb-5' />
       <VerticalTimeline lineColor='#dc3545'>
-        <MyVerticalElement
-          title='Bachelors of Software Engineering'
-          subtitle='Institute of Management Sciences, Peshawar'
-          date='2018-2022'
-        />
-        <MyVerticalElement
-          title='Intermediate in Computer Science'
-          subtitle='Fazaia Degree College, Risalpur Cantt'
-          date='2016-2018'
-        />
-        <MyVerticalElement
-          title='Secondary School Certificate'
-          subtitle='Khyber Model School and College, Nowshera'
-          date='2014-2016'
-        />
+        {EducationList.map((item) => {
+          return <MyVerticalElement key={item.id} {...item} />
+        })}
       </VerticalTimeline>
     </div>
   )

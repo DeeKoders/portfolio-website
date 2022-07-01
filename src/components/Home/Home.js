@@ -4,7 +4,7 @@ import TypewriterComponent from 'typewriter-effect'
 const Home = () => {
   return (
     <div className='row' Style='min-height: 90vh'>
-      <div className='col-12 col-md-6 px-5 mt-3'>
+      <div className='col-12 col-md-6 px-5 mt-5 pt-3'>
         <h1 className='row text-dark opacity-75 fs-4 mt-5 pt-5'>
           Hello World !!!
         </h1>
@@ -15,7 +15,7 @@ const Home = () => {
           </h1>
         </div>
         <div className='row'>
-          <div className='col-12 col-md-4 text-center px-0 mx-0 fw-bold fs-1 text-danger'>
+          <div className='col-12 col-md-4 px-0 mx-0 fw-bold fs-1 text-danger'>
             <TypewriterComponent
               onInit={(typewriter) => {
                 typewriter
@@ -54,8 +54,8 @@ const Home = () => {
         </div>
         <div className='row'>
           <h1 className='col-12 px-0 mx-0 col-md-1 fs-4'>As</h1>
-          <h1 className='col-12 col-md-6 mx-0 px-0 fw-bold fs-4 text-danger'>
-            React JS Intern
+          <h1 className='col-12 col-md-8 mx-0 px-0 fw-bold fs-4 text-danger'>
+            Associate Full Stack Enginner Intern
           </h1>
         </div>
       </div>
