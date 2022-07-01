@@ -46,11 +46,8 @@ const Header = (props) => {
                   </Link>
                 </li>
                 <li className='nav-item'>
-                  <Link
-                    className='nav-link fw-bold text-uppercase mx-3'
-                    to='/BirdsInformation'
-                  >
-                    Resume
+                  <Link className='nav-link fw-bold text-uppercase mx-3' to='/'>
+                    Skills
                   </Link>
                 </li>
                 <li className='nav-item'>
@@ -62,16 +59,11 @@ const Header = (props) => {
                   </Link>
                 </li>
                 <li className='nav-item'>
-                  <Link className='nav-link fw-bold text-uppercase mx-3' to='/'>
-                    Education
-                  </Link>
-                </li>
-                <li className='nav-item'>
                   <Link
                     className='nav-link fw-bold text-uppercase mx-3'
-                    to='/BirdSell'
+                    to='/education'
                   >
-                    About Me
+                    Education
                   </Link>
                 </li>
               </ul>

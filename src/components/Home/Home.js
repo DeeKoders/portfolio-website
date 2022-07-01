@@ -15,7 +15,7 @@ const Home = () => {
           </h1>
         </div>
         <div className='row'>
-          <div className='col-12 col-md-4 px-0 mx-0 fw-bold fs-1 text-danger'>
+          <div className='col-12 col-md-4 text-center px-0 mx-0 fw-bold fs-1 text-danger'>
             <TypewriterComponent
               onInit={(typewriter) => {
                 typewriter
@@ -42,7 +42,7 @@ const Home = () => {
             />
           </div>
 
-          <h1 className='col-12 col-md-8 px-0 mx-0 mt-1 fs-1 '>Developer</h1>
+          <h1 className='col-12 col-md-6 px-0 mx-0 mt-1 fs-1 '>Developer</h1>
         </div>
         <div className=' row mt-5'>
           <h1 className='col-12 col-md-5 px-0 mx-0 fs-4'>
@@ -62,7 +62,7 @@ const Home = () => {
       <div
         Style='overflow: hidden'
         id='image'
-        className='col-6 px-5 border bg-danger bg-opacity-75 border rounded-pill'
+        className='col-5 px-2 border bg-danger bg-opacity-75 border rounded-pill'
       >
         <img Style='height: 90vh' src={img} alt='' />
       </div>
