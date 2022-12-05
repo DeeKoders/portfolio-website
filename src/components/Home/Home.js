@@ -50,7 +50,7 @@ const Home = () => {
         <div className="d-flex gap-3">
           <h1 className="fs-4">As</h1>
           <h1 className="fw-bold fs-4 text-danger">
-            Associate Full Stack Enginner Intern
+            Associate Full Stack Engineer
           </h1>
         </div>
       </div>
