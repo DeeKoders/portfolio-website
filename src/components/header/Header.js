@@ -38,7 +38,7 @@ const Header = (props) => {
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item ">
                   <Link
-                    className="nav-link fw-bold text-uppercase mx-3"
+                    className="nav-link fw-bold text-uppercase mx-3 text-white"
                     aria-current="page"
                     to="/"
                   >
@@ -47,7 +47,7 @@ const Header = (props) => {
                 </li>
                 <li className="nav-item">
                   <Link
-                    className="nav-link fw-bold text-uppercase mx-3"
+                    className="nav-link fw-bold text-uppercase mx-3 text-white"
                     to="/skills"
                   >
                     Skills
@@ -55,7 +55,7 @@ const Header = (props) => {
                 </li>
                 <li className="nav-item">
                   <Link
-                    className="nav-link fw-bold text-uppercase mx-3"
+                    className="nav-link fw-bold text-uppercase mx-3 text-white"
                     to="/Donations"
                   >
                     Projects
@@ -63,7 +63,7 @@ const Header = (props) => {
                 </li>
                 <li className="nav-item">
                   <Link
-                    className="nav-link fw-bold text-uppercase mx-3"
+                    className="nav-link fw-bold text-uppercase mx-3 text-white"
                     to="/education"
                   >
                     Education
