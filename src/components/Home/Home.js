@@ -1,11 +1,12 @@
 import React from "react";
 import img from "../../images/danyal.png";
 import TypewriterComponent from "typewriter-effect";
+
 const Home = () => {
   return (
     <div
       className="row border-bottom border-1 pb-5 border-secondary border-opacity-50"
-      Style="min-height: 90vh"
+      Style="min-height: 90vh; z-index: 4; position: relative"
     >
       <div className="col-12 col-md-6 px-5 mt-5 pt-3">
         <h1 className="opacity-75 fs-4 mt-5 pt-5">Hello World !!!</h1>
