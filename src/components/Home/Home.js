@@ -62,7 +62,7 @@ const Home = () => {
       <div
         Style="overflow: hidden"
         id="image"
-        className="col-5 border text-center bg-info bg-opacity-75 border rounded-pill"
+        className="col-5 border text-center bg-info  border rounded-pill"
       >
         <img Style="height: 90vh; margin-right:20px;" src={img} alt="" />
       </div>
