@@ -5,7 +5,7 @@ function MyVerticalElement(props) {
   return (
     <VerticalTimelineElement
       className="vertical-timeline-element--education text-dark"
-      iconStyle={{ background: "#dc3545", color: "#ffff" }}
+      iconStyle={{ background: "#0dcaf0", color: "#ffff" }}
       icon={<BuildIcon />}
       date={props.date}
       dateClassName="text-white fw-bold"

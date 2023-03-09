@@ -18,10 +18,10 @@ const Home = () => {
         <h1 className="opacity-75 fs-4 mt-5 pt-5">Hello World !!!</h1>
         <div className="d-flex gap-3">
           <h1 className="fs-1">I'm </h1>
-          <h1 className="fw-bold fs-1 text-danger">Danyal Ahmad</h1>
+          <h1 className="fw-bold fs-1 text-info">Danyal Ahmad</h1>
         </div>
         <div className="d-flex gap-3">
-          <div className="fw-bold fs-1 text-danger">
+          <div className="fw-bold fs-1 text-info">
             <TypewriterComponent
               onInit={(typewriter) => {
                 typewriter
@@ -41,8 +41,6 @@ const Home = () => {
                   .pauseFor(4000)
                   .deleteAll()
                   .typeString("Full Stack Web")
-                  .pauseFor(4000)
-                  .deleteAll()
                   .start();
               }}
             />
@@ -52,11 +50,11 @@ const Home = () => {
         </div>
         <div className="mt-5 d-flex gap-3">
           <h1 className="fs-4">Currently working at</h1>
-          <h1 className="fw-bold fs-4 text-danger">ProductBox</h1>
+          <h1 className="fw-bold fs-4 text-info">ProductBox</h1>
         </div>
         <div className="d-flex gap-3">
           <h1 className="fs-4">As</h1>
-          <h1 className="fw-bold fs-4 text-danger">
+          <h1 className="fw-bold fs-4 text-info">
             Associate Full Stack Engineer
           </h1>
         </div>
@@ -64,7 +62,7 @@ const Home = () => {
       <div
         Style="overflow: hidden"
         id="image"
-        className="col-5 border text-center bg-danger bg-opacity-75 border rounded-pill"
+        className="col-5 border text-center bg-info bg-opacity-75 border rounded-pill"
       >
         <img Style="height: 90vh; margin-right:20px;" src={img} alt="" />
       </div>
