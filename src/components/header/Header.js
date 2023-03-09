@@ -6,7 +6,7 @@ import img from "../../images/danyal.jpg";
 const Header = (props) => {
   return (
     <>
-      <header>
+      <header className="mb-5">
         <nav class="navbar navbar-expand-lg navbar-light ">
           <div class="container-fluid">
             <Link className="col-4 d-flex nav-link align-content-center" to="/">

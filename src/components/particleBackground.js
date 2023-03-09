@@ -22,11 +22,11 @@ const ParticleBackground = () => {
         init={particlesInit}
         loaded={particlesLoaded}
         options={{
-          fpsLimit: 60,
+          fpsLimit: 120,
           interactivity: {
             events: {
               onClick: {
-                enable: true,
+                enable: false,
                 mode: "push",
               },
               onHover: {
@@ -46,7 +46,7 @@ const ParticleBackground = () => {
             },
           },
           particles: {
-            stroke: 1,
+            stroke: 2,
             color: {
               value: "#ffffff",
             },
@@ -58,16 +58,14 @@ const ParticleBackground = () => {
               width: 1,
             },
             collisions: {
-              enable: true,
+              enable: false,
             },
             move: {
               directions: "none",
               enable: true,
-              outModes: {
-                default: "bounce",
-              },
+              bounce: false,
               random: false,
-              speed: 6,
+              speed: 5,
               straight: false,
             },
             number: {
@@ -75,7 +73,7 @@ const ParticleBackground = () => {
                 enable: true,
                 area: 800,
               },
-              value: 80,
+              value: 130,
             },
             opacity: {
               value: 0.1,
@@ -87,7 +85,7 @@ const ParticleBackground = () => {
               value: { min: 1, max: 5 },
             },
           },
-          detectRetina: true,
+          detectRetina: false,
         }}
       />
     </div>
