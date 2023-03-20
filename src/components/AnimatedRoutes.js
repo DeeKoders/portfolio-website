@@ -4,6 +4,7 @@ import Education from "./Education/Education";
 import Home from "./Home/Home";
 import Skills from "./Skills/Skills";
 import { AnimatePresence } from "framer-motion";
+import Projects from "./Projects/projects";
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -13,6 +14,7 @@ const AnimatedRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/education" element={<Education />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="*" element={<Projects />} />
       </Routes>
     </AnimatePresence>
   );

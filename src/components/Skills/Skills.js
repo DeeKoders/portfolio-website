@@ -13,6 +13,7 @@ const Skills = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
+      <div className="text-center fs-1 fw-bold mb-5">Here Are My Skills</div>
       <div className="row justify-content-center">
         {SkillsHelper.map((item) => {
           return <IndSkill key={item.id} {...item} />;

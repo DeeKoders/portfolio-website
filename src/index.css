@@ -22,6 +22,9 @@ code {
   height: 230px;
   margin: -5px 0 0 -67px;
 }
+.full-container {
+  min-height: 90vh;
+}
 @media screen and (max-width: 768px) {
   #image,
   #img {

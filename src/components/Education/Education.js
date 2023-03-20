@@ -14,6 +14,9 @@ const Education = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
+      <div className="text-center fs-1 fw-bold mb-5">
+        Here's My Educational Background
+      </div>
       <VerticalTimeline lineColor="#0dcaf0">
         {EducationList.map((item) => {
           return <MyVerticalElement key={item.id} {...item} />;

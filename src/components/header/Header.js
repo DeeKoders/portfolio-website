@@ -56,7 +56,7 @@ const Header = (props) => {
                 <li className="nav-item">
                   <Link
                     className="nav-link fw-bold text-uppercase mx-3 text-white"
-                    to="/Donations"
+                    to="/projects"
                   >
                     Projects
                   </Link>
