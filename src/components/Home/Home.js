@@ -23,25 +23,30 @@ const Home = () => {
         <div className="d-flex gap-3">
           <div className="fw-bold fs-1 text-info">
             <TypewriterComponent
-              onInit={(typewriter) => {
-                typewriter
-                  .typeString("Full Stack Web")
-                  .pauseFor(4000)
-                  .deleteAll()
-                  .typeString("Full Stack Web")
-                  .pauseFor(4000)
-                  .deleteAll()
-                  .typeString("Full Stack Web")
-                  .pauseFor(4000)
-                  .deleteAll()
-                  .typeString("Full Stack Web")
-                  .pauseFor(4000)
-                  .deleteAll()
-                  .typeString("Full Stack Web")
-                  .pauseFor(4000)
-                  .deleteAll()
-                  .typeString("Full Stack Web")
-                  .start();
+              // onInit={(typewriter) => {
+              //   typewriter
+              //     .typeString("Full Stack Web")
+              //     .pauseFor(4000)
+              //     .deleteAll()
+              //     .typeString("Full Stack Web")
+              //     .pauseFor(4000)
+              //     .deleteAll()
+              //     .typeString("Full Stack Web")
+              //     .pauseFor(4000)
+              //     .deleteAll()
+              //     .typeString("Full Stack Web")
+              //     .pauseFor(4000)
+              //     .deleteAll()
+              //     .typeString("Full Stack Web")
+              //     .pauseFor(4000)
+              //     .deleteAll()
+              //     .typeString("Full Stack Web")
+              //     .start();
+              // }}
+              options={{
+                strings: ["Full Stack Web"],
+                autoStart: true,
+                loop: true,
               }}
             />
           </div>

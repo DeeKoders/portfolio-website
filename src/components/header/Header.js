@@ -21,7 +21,7 @@ const Header = (props) => {
               </h1>
             </Link>
             <button
-              class="navbar-toggler"
+              class="navbar-toggler bg-light "
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavDropdown"
