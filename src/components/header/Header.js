@@ -25,7 +25,10 @@ function Header() {
         </Navbar.Brand>
       </Col>
       <Col md={8}>
-        <Navbar.Toggle aria-controls="navbarSupportedContent" />
+        <Navbar.Toggle
+          aria-controls="navbarSupportedContent"
+          className="bg-white "
+        />
         <Navbar.Collapse id="navbarSupportedContent">
           <Nav className="me-auto">
             <Link
