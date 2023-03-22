@@ -1,7 +1,9 @@
 import React from "react";
 import img from "../../images/danyal.png";
+import pimg from "../../images/danyal-200.png";
 import TypewriterComponent from "typewriter-effect";
 import { motion } from "framer-motion";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Home = () => {
   return (
@@ -69,7 +71,20 @@ const Home = () => {
         id="image"
         className="col-5 border text-center bg-info  border rounded-pill"
       >
-        <img Style="height: 90vh; margin-right:20px;" src={img} alt="" />
+        {/* <img
+          Style="height: 90vh; margin-right:20px;"
+          src={img}
+          alt=""
+          loading="lazy"
+        /> */}
+        <LazyLoadImage
+          src={img}
+          // data-src={img}
+          placeholderSrc={pimg}
+          effect="blur"
+          height={700}
+        />
+        {/* <iframe src={img} loading="lazy" title="asd"></iframe> */}
       </div>
     </motion.div>
   );
