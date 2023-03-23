@@ -13,11 +13,11 @@ export const ProjectsHelper = [
     desc: "Next-JS Practice Project",
     link: "https://hulu-clone-nextjs-pink.vercel.app/",
   },
-  {
-    id: 3,
-    name: "API Documentation",
-    img: "../images/projects/test_case.png",
-    desc: "API Documentation for a Project - Therappy App",
-    link: "https://golden-puppy-dc9f46.netlify.app",
-  },
+  // {
+  //   id: 3,
+  //   name: "API Documentation",
+  //   img: "../images/projects/test_case.png",
+  //   desc: "API Documentation for a Project - Therappy App",
+  //   link: "https://golden-puppy-dc9f46.netlify.app",
+  // },
 ];
